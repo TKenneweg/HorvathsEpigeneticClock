@@ -1,6 +1,6 @@
-# WhyDoWeAge
+# Implementing Horvath's Epigenetic Clock From Scratch
 
-This repository contains the code for the YouTube video **"Why Do We Age? Exploring the Evolutionary Causes of Aging."** ([Link](https://youtu.be/cjHC1akKCVI)).
+This repository contains the code for the YouTube video **"Implementing Horvath's Epigenetic Clock From Scratch."** ([Link](https://youtu.be/ZS0_b2KWQos)).
 
 ## Getting Started
 
@@ -17,6 +17,6 @@ Afterwards make sure to create the data folder
 mkdir data
 ```
 
-Before running download.py followed by preprocess.py.
+before running download.py followed by preprocess.py to get the actual data.
 
-Before running regression.py make sure you run mlp.py so that some train-test split indices get generated.
+You need to run mlp.py before regression.py since regression.py tries to read train/test split indices from disk.
